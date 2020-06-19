@@ -1,0 +1,95 @@
+/* create a new file name responsive.css
+col-lg- =>992px
+col-md- =>768px
+col-sm- =>576px
+col-xs-	<576px
+ */
+
+
+/*----==========1200px=======---------*/
+@media all and (max-width: 1200px){
+
+}
+/*----==========992px=======---------*/
+@media all and (max-width: 992px){
+/* nav_Section */
+.navbar-light .navbar-nav .nav-link {
+	    font-size: 12px;
+}
+.nav_left li p {
+    font-size: 12px;
+}
+
+/* covers_section */
+.cover_height {
+    min-height: 60vh;
+}
+/* director_section */
+.director_right img {
+    width: 70%;
+}
+.price_content {
+
+    margin-bottom: 15px;
+}
+
+}
+
+/*--------=======768px============---------*/
+@media all and (max-width: 768px){
+
+/* navbar */
+#navbarResponsive li:last-child {
+
+    margin: inherit;
+}
+/* cover_section */
+.cover_height {
+    min-height: 50vh;
+}
+/* download_section */
+.download_right button {
+    margin-top: 15px;
+}
+
+}
+/*---------==========576px=========-------*/
+
+@media all and (max-width: 576px){
+	.cover_height {
+    min-height: 40vh;
+}
+.feature_head {
+   margin-bottom: 0px;
+}
+.perfect_left {
+    width: 60%;
+}
+
+}
+
+/*------==========480px=========---------*/
+@media all and (max-width: 480px){
+
+}
+/*---------==========320px==========---------*/
+
+@media all and (max-width: 320px){
+
+}
+
+/*-------============290px============---------*/
+
+@media all and (max-width: 290px){
+
+}
+
+
+------OR----- 2ta ak sathe kaj koranor jonno
+
+@media all and (max-width: 480px) and (max-width: 768px{
+.mid_area{
+		background: #179c4b;
+	}
+
+}
